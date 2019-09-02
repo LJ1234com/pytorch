@@ -44,8 +44,9 @@ class AlexNet(nn.Module):
 
 if __name__ == '__main__':
 
-    model =AlexNet()
+    # model =AlexNet()
     # model = models.AlexNet()
+    model = models.LeNet()
     print(model)
 
 
